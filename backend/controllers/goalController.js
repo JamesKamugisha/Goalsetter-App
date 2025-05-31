@@ -28,7 +28,6 @@ const setGoal = asyncHandler(async (req, res) => {
 });
 
 //@desc    Update goals
-//@route   PUT /api/goals/:id
 //@access  Private
 
 const updateGoal = asyncHandler(async (req, res) => {
@@ -56,7 +55,6 @@ const updateGoal = asyncHandler(async (req, res) => {
 });
 
 //@desc    Delete goals
-//@route   DELETE /api/goals/:id
 //@access  Private
 
 const deleteGoal = asyncHandler(async (req, res) => {
