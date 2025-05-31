@@ -1,8 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
+import authReducer from "../features/auth/authSlice";
+import goalReducer from "../features/goals/goalSlice";
 
 export const store = configureStore({
   reducer: {
-    // Add your reducers here
+    auth: authReducer,
+    goals: goalReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
