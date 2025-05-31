@@ -14,7 +14,7 @@ function Header() {
     navigate("/");
   };
   return (
-    <header className="header">
+    <Header className="header">
       <div className="logo">
         <Link to="/">GoalSetter</Link>
       </div>
@@ -40,7 +40,7 @@ function Header() {
           </>
         )}
       </ul>
-    </header>
+    </Header>
   );
 }
 
